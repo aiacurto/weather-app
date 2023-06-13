@@ -1,0 +1,38 @@
+body {
+  background-image: url("/Users/adelinaiacurto/Documents/VS Code/SheCodes Plus/Weather app/Images/st-lucia-jpg_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.card {
+  top: 100px, 100px;
+  margin: 25px;
+}
+.col-1 {
+  font-size: 40px;
+  position: relative;
+  top: -5px;
+}
+.col-2 {
+  font-weight: 200px;
+  font-size: 20px;
+}
+ul {
+  list-style: none;
+  font-size: 25px;
+  margin-left: -32px;
+}
+h4 {
+  margin: 15px;
+}
+.col-12 {
+  position: relative;
+  right: -800px;
+  top: -250px;
+}
+button {
+  display: inline;
+  background-color: transparent;
+  border: transparent;
+}
