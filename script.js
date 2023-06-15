@@ -1,9 +1,16 @@
 let now = new Date();
 let h2 = document.querySelector("h2");
-let date = now.getDate();
 let hours = now.getHours();
 let minutes = now.getMinutes();
 let year = now.getFullYear();
+const currentDate = new Date();
+const formattedTime = new Intl.DateTimeFormat("en-GB", {
+  hour: "numeric",
+  minute: "numeric",
+  hour12: false,
+}).format(currentDate);
+
+console.log(formattedTime);
 
 let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let day = days[now.getDay()];
