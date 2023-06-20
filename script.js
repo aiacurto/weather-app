@@ -31,7 +31,7 @@ let months = [
 ];
 let month = months[now.getMonth()];
 
-h2.innerHTML = `${day} ${date} ${month}, ${hours}:${minutes}, ${year}`;
+h2.innerHTML = `${day} ${currentDate.getDate()} ${month}, ${hours}:${minutes}, ${year}`;
 
 function searchCity(event) {
   event.preventDefault();
