@@ -1,5 +1,5 @@
 body {
-  background-image: url("/Users/adelinaiacurto/Documents/VS Code/SheCodes Plus/Weather app/Images/st-lucia-jpg_header.jpg");
+  background-image: src= "st-lucia-jpg_header.jpg";
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
