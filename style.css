@@ -1,5 +1,5 @@
 body {
-  background-image: src= "st-lucia-jpg_header.jpg";
+  background-image: url(st-lucia-jpg_header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
