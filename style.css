@@ -36,3 +36,11 @@ button {
   background-color: transparent;
   border: transparent;
 }
+.Find-Out-More {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+}
